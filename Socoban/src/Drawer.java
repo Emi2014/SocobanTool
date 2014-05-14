@@ -1,12 +1,12 @@
 import java.awt.Menu;
 
 
-	abstract class Drawer {
+	public abstract class Drawer {
 
-	 abstract void drawMenu() ;
-	 abstract void drawScores();
-	 abstract void drawGameField();
-	 abstract void drawStatusLine();
+	 abstract void drawMenu(Menu menu) ;
+	 abstract void drawScores(Scores scores);
+	 abstract void drawGameField(GameField field);
+	 abstract void drawStatusLine(StatusLine status);
 	}
 
 
