@@ -3,7 +3,7 @@ public class StatusLine {
 
 	private String playerName;
 	private int level;
-	private String moves;
+	private int moves;
 	private int time;
 		
 
@@ -30,13 +30,13 @@ public class StatusLine {
         this.level = level;
 
     }
-    public String getMoves() {
+    public int getMoves() {
 
         return this.moves;
 
     }
 
-    public void setMoves(String moves) {
+    public void setMoves(int moves) {
 
         this.moves = moves;
 
@@ -53,5 +53,16 @@ public class StatusLine {
         this.time = time;
 
     }
+    
+    public StatusLine(String playerName) {
 
+        this.playerName = playerName;
+
+      
+    }
+   
+   
+    
 }
+
+
