@@ -57,17 +57,14 @@ public class StatusLine {
     public StatusLine(String playerName) {
 
         this.playerName = playerName;
+        this.level = 1;
+        this.moves=0;
+        this.time=0;
 
       
     }
    
-    public StatusLine(int level,int moves ) {
-
-        this.level = 1;
-        this.moves=0;
-
-      
-    }
+   
    
 }
 
