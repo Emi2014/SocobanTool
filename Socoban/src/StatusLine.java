@@ -61,8 +61,14 @@ public class StatusLine {
       
     }
    
+    public StatusLine(int level,int moves ) {
+
+        this.level = 1;
+        this.moves=0;
+
+      
+    }
    
-    
 }
 
 
